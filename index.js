@@ -8,14 +8,14 @@ var rotateSum;
     next.onclick = function()
     {
         rotateSum = rotateValue + "rotate(-60deg)";
-        circle.style.transform = rotateSum;
+        home.style.transform = rotateSum;
         rotateValue = rotateSum;
     }
 
     back.onclick = function()
     {
         rotateSum = rotateValue + "rotate(+60deg)";
-        circle.style.transform = rotateSum;
+        home.style.transform = rotateSum;
         rotateValue = rotateSum;
     }
 

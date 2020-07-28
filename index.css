@@ -4,7 +4,6 @@
     font-family: sans-serif;
 }
 .main{
-    overflow-y:scroll;
     width: 100%;
     height: 2000px;
     position: relative;
@@ -57,7 +56,7 @@ nav{
     margin-left: -5%;
     transform: translatey(-50%);
 }
-#circle{
+#home{
     width: 1000px;
     height: 1000px;
     position: absolute;
@@ -244,7 +243,8 @@ nav{
 }
 .numbertwo h2{
     margin: 120px 3% -40px;
-}.numbertwo p{
+}
+.numbertwo p{
     margin: -140px 20% 160px;
 }
 .numberthree{
@@ -255,7 +255,8 @@ nav{
 }
 .numberthree h2{
     margin: 110px 3% -80px;
-}.numberthree p{
+}
+.numberthree p{
     margin: -90px 20% 115px;
 }
 .numberfour{
@@ -266,7 +267,8 @@ nav{
 }
 .numberfour h2{
     margin: 110px 3% -80px; 
-}.numberfour p{
+}
+.numberfour p{
     margin: -80px 20% 120px;
 }
 .numberfive{
@@ -288,7 +290,7 @@ nav{
     margin-left: -5%;
     transform: translatey(-50%);
 }
-#areasix{
+#more{
     width: 2000px;
     height: 200px;
     position: absolute;
@@ -417,4 +419,11 @@ nav{
 }
 .youtube a{
     color: #fff;
+}
+.top {
+    margin: -100px 75% 0px;
+}
+.top img{
+    position: sticky;
+    width: 100px;
 }
