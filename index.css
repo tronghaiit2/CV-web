@@ -126,11 +126,13 @@
     right: 630px;
     transform: rotate(-120deg);
 }
-.Profile{
+.avatar{
     width: 250px;
     position: absolute;
     top: 50%;
-    left: 40%;
+    left: 38%;
+    border-radius: 20%;
+    border: 2px solid #66CCCC;
     transform: translateY(-50%);
     z-index: 1;
 }
@@ -138,24 +140,24 @@
 .controls{
     position: absolute;
     left: 90vw;
-    top: 40%;
+    top: 50%;
     text-align: center;
 }
 .controls h2{
-    margin: 40px 0;
+    margin: -100px 0;
     color: #fff;
 }
 #next{
-    margin-left: -5px;
-    width: 50px;
-    cursor: pointer;
-    transform: rotate(90deg);
-}
-#back{
     margin-left: 5px;
     width: 50px;
     cursor: pointer;
     transform: rotate(270deg);
+}
+#back{
+    margin-left: -5px;
+    width: 50px;
+    cursor: pointer;
+    transform: rotate(90deg);
 }
 .overlay{
     width: 0;
@@ -254,6 +256,7 @@
     background: #006666;
 }
 .about{
+    z-index: 1;
     position: relative;
     top: 10vw;
     left: 6vw;
@@ -264,6 +267,7 @@
     margin-left: 5vw;
 }
 .experience{
+    z-index: 1;
     position: relative;
     top: 14vw;
     left: 6vw;
@@ -474,8 +478,8 @@
     }
     .controls{
         position: absolute;
-        left: 100vw;
-        top: 50%;
+        left: 99vw;
+        top: 70%;
         text-align: center;
     }
     .area2{
@@ -650,7 +654,7 @@
         right: 100%;
         transform: rotate(180deg);
     }
-    .Profile{
+    .avatar{
         width: 50%;
         position: absolute;
         top: 100%;
@@ -673,7 +677,7 @@
         .controls{
             position: absolute;
             left: 80vw;
-            top: 100%;
+            top: 150%;
             text-align: center;
             }
         }
