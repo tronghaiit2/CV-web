@@ -1,3 +1,12 @@
+var show = document.getElementById("nav-links");
+        function showMenu() {
+            show.style.right ="0";
+        }
+        function closeMenu() {
+            show.style.right ="-120px";
+        }
+
+
 var circle = document.getElementById("circle");
 var name = document.getElementById("name");  var next = document.getElementById("next");
 var back = document.getElementById("back");
