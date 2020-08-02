@@ -197,7 +197,8 @@
     
 }
 .detail1{ 
-    width: 38vw;
+    width: 33vw;
+    padding-right: 5vw;
     position: relative;
     color: #006666;
     background: #CCFFFF;
@@ -208,7 +209,8 @@
 .detail2{
     margin-top: 5vw;
     margin-left: 50vw;
-    width: 35vw;
+    width: 30vw;
+    padding-right: 5vw;
     position: relative;
     color: #006666;
     background: #CCFFFF;
@@ -223,16 +225,19 @@
     width: 80px;
     height: 80px;
 }
-.details div h2{
+.details h2{
     position: absolute;
     margin-top: 30px;
     margin-left: 100px;
 }
 .details h3{
+    margin-left: 15px;
     position: absolute;
     color: #000;
 }
 .details p{
+    width: 70%;
+    margin-left: 100px;
     position: relative;
     color: #000;
 }
@@ -240,18 +245,17 @@
     position: absolute;
     left: 100px;
     top: 70px;
-    width: 70%;
+    width: 68%;
     height: 5px;
     background: #006666;
 }
 .about{
-    
     position: relative;
     top: 10vw;
     left: 6vw;
 }
 .about p{
-    width: 70%;
+    width: 80%;
     margin-top: 100px;
     margin-left: 5vw;
 }
@@ -259,60 +263,64 @@
     position: relative;
     top: 14vw;
     left: 6vw;
-    
 }
-.experience h3{
-    margin-left: 15px;
-    margin-top: 120px;
+.experience1 h3{
+    margin-top: 0px;
 }
-.experience p{
-    width: 70%;
+.experience1 p{
     margin-top: 100px;
-    margin-left: 100px;
+}
+.experience2 h3{
+    margin-top: 0px;
+}
+.experience2 p{
+    margin-top: 0px;
 }
 .awards {
     position: relative;
     top: 0vw;
     left: 3vw;
 }
-.awards h3{
-    margin-left: 15px;
-    margin-top: 110px;
+.award1 h3{
+    margin-top: 0px;
 }
-.awards p{
-    width: 70%;
+.award1 p{
     margin-top: 100px;
-    margin-left: 100px;
+}
+.award2 h3{
+    margin-top: 0px;
+}
+.award2 p{
+    margin-top: 0px;
 }
 .education {
     position: relative;
     top: -1vw;
     left: 3vw;
 }
-.education h3{
-    margin-left: 15px;
-    margin-top: 110px;
+.edu1 h3{
+    margin-top: 0px;
 }
-.education p{
-    width: 70%;
-    margin-top: 115px;
-    margin-left: 100px;
+.edu1 p{
+    margin-top: 100px;
+}
+.edu2 h3{
+    margin-top: 0px;
+}
+.edu2 p{
+    margin-top: 0px;
 }
 .skill{
     position: relative;
     top: -2vw;
     left: 3vw;
 }
-
 .imgskill img{
     position: relative;
     width: 20vw;
     height: 10vw;
-    margin-left: 6vw;
+    margin-left: 20%;
     margin-top: 100px;
-}
-.imgskill p{
-    width: 70%;
 }
 
 .more{
@@ -409,7 +417,7 @@
 }
 .top{
     position: absolute;
-    right: 20%;
+    right: 15%;
     bottom: 100%;    
 }
 .top img{
@@ -458,7 +466,7 @@
     }
     .information{
         position: relative;
-        margin-left: -20%;
+        margin-left: -150px;
     }
     .controls{
         position: absolute;
@@ -466,12 +474,108 @@
         top: 50%;
         text-align: center;
     }
-    } 
+    .area2{
+        margin-top: 10vw;
+    }
+    .details h3{
+        width: 35px;
+        margin-left: 15px;
+    }
+    .details p{
+        margin-left: 70px;
+    }
+    .line{
+        position: absolute;
+        left: 100px;
+        top: 70px;
+        width: 60%;
+        height: 5px;
+        background: #006666;
+    }
+    .about{
+        position: relative;
+        top: 10vw;
+        left: 6vw;
+    }
+    .about p{
+        width: 25vw;
+        margin-top: 100px;
+    }
+    .experience{
+        position: relative;
+        top: 14vw;
+        left: 6vw;
+    }
+    .experience1 h3{
+        margin-top: 0px;
+    }
+    .experience1 p{
+        width: 25vw;
+        margin-top: 100px;
+    }
+    .experience2 h3{
+        margin-top: 0px;
+    }
+    .experience2 p{
+        width: 25vw;
+        margin-top: 0px;
+    }
+    .awards {
+        position: relative;
+        top: 0vw;
+        left: 3vw;
+    }
+    .award1 h3{
+        margin-top: 0px;
+    }
+    .award1 p{
+        width: 22vw;
+        margin-top: 100px;
+    }
+    .award2 h3{
+        margin-top: 0px;
+    }
+    .award2 p{
+        width: 22vw;
+        margin-top: 0px;
+    }
+    .education {
+        position: relative;
+        top: -1vw;
+        left: 3vw;
+    }
+    .edu1 h3{
+        margin-top: 0px;
+    }
+    .edu1 p{
+        width: 22vw;
+        margin-top: 100px;
+    }
+    .edu2 h3{
+        margin-top: 0px;
+    }
+    .edu2 p{
+        width: 22vw;
+        margin-top: 0px;
+    }
+    .skill{
+        position: relative;
+        top: -2vw;
+        left: 3vw;
+    }
+    .imgskill img{
+        position: relative;
+        width: 25vw;
+        height: 13vw;
+        margin-left: 5vw;
+        margin-top: 100px;
+    }
+    }
 }
 
 @media (max-width: 700px){
     .main{
-        width: 100vw;
+        width: 101vw;
         height: 100vh;
     }
     .information{
@@ -592,7 +696,7 @@
     }
 
     .details{
-        width: 99vw;
+        width: 100vw;
         height: max-content;
         position: relative;
         top: 0vw;
@@ -614,7 +718,7 @@
         top: 10vw;
     }
     .detail1{ 
-        width: 88vw;
+        width: 82vw;
         position: relative;
         color: #006666;
         background: #CCFFFF;
@@ -623,7 +727,7 @@
         border-radius: 5px;
     }
     .detail2{
-        width: 88vw;
+        width: 82vw;
         margin-top: 5vw;
         margin-left: 0vw;
         position: relative;
@@ -640,7 +744,7 @@
         width: 60px;
         height: 60px;
     }
-    .details div h2{
+    .details h2{
         position: absolute;
         margin-top: 16px;
         margin-left: 70px;
@@ -648,10 +752,14 @@
     .details h3{
         position: absolute;
         color: #000;
+        width: 35px;
+        margin-left: 15px;
     }
     .details p{
         position: relative;
         color: #000;
+        width: 75%;
+        margin-left: 60px;
     }
     .line{
         position: absolute;
@@ -662,68 +770,77 @@
         background: #006666;
     }
     .about{
+        position: relative;
         top: 10vw;
-        left: 5vw;
+        left: 6vw;
     }
     .about p{
-        width: 70%;
-        margin-top: 75px;
-        margin-left: 65px;
+        width: 80%;
+        margin-top: 70px;
+        margin-left: 50px;
     }
     .experience{
         position: relative;
         top: 15vw;
-        left: 5vw;
+        left: 6vw;
     }
-    .experience h3{
-        width: 40px;
-        margin-left: 15px;
-        margin-top: 120px;
+    .experience1 h3{
+        margin-top: 0px;
     }
-    .experience p{
-        margin-top: 75px;
-        margin-left: 65px;
+    .experience1 p{
+        margin-top: 70px;
+    }
+    .experience2 h3{
+        margin-top: 0px;
+    }
+    .experience2 p{
+        margin-top: 0px;
     }
     .awards {
         position: relative;
         top: 5vw;
-        left: 1vw;
+        left: 2vw;
     }
-    .awards h3{
-        width: 40px;
-        margin-left: 15px;
-        margin-top: 80px;
+    .award1 h3{
+        margin-top: 0px;
     }
-    .awards p{
-        width: 70%;
-        margin-top: 80px;
-        margin-left: 65px;
+    .award1 p{
+        margin-top: 70px;
+    }
+    .award2 h3{
+        margin-top: 0px;
+    }
+    .award2 p{
+        margin-top: 0px;
     }
     .education {
         position: relative;
         top: 5vw;
-        left: 1vw;
+        left: 2vw;
     }
-    .education h3{
-        margin-left: 15px;
-        margin-top: 90px;
+    .edu1 h3{
+        margin-top: -5px;
     }
-    .education p{
-        width: 60%;
-        margin-top: 80px;
-        margin-left: 100px;
+    .edu1 p{
+        margin-top: 70px;
+    }
+    .edu2 h3{
+        margin-top: -5px;
+    }
+    .edu2 p{
+        margin-top: 10px;
     }
     .skill{
         position: relative;
         top: 5vw;
-        left: 1vw;
+        left: 2vw;
     }
     .imgskill img{
         position: relative;
         width: 50vw;
         height: 25vw;
-        margin-left: 80px;
-        margin-top: 80px;
+        margin-left: 20%;
+        margin-top: 70px;
     }
 
     .more{
@@ -758,7 +875,7 @@
         position: absolute;
     }
     .address h4{
-        margin: 120px 10vw 0px;
+        margin: 120px 10vw 0;
     }
     .address h5{
         width: 70vw;
@@ -772,11 +889,9 @@
         margin: 200px 10vw 0;
     }
     .phone{
-        position: relative;
         margin: 10px 15vw 0;
     }
     .email{
-        position: relative;
         margin: 10px 15vw 10vw;
     }
     .social{
