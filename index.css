@@ -221,6 +221,8 @@
     border-radius: 5px;
 }
 .details img{
+    z-index: 1;
+    cursor: pointer;
     position: absolute;
     top: 0.5vw;
     left: 0.5vw;
@@ -742,6 +744,8 @@
         border-radius: 5px;
     }
     .details img{
+        z-index: 1;
+        cursor: pointer;
         position: absolute;
         top: 1vw;
         left: 1vw;
