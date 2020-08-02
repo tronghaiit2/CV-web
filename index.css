@@ -77,13 +77,16 @@
     border-radius: 50%;
     transition: 1s;
 }
-.infor img{
-    width: 100px;
-}
 .infor{
     position: absolute;
     display: flex;
     color: #006666;
+}
+.infor img{
+    width: 100px;
+}
+.infor li{
+    list-style: none;
 }
 .infor div{
     margin-left: 20px;
@@ -155,19 +158,19 @@
     transform: rotate(270deg);
 }
 .overlay{
-   width: 0;
-   height: 0;
-   border-top-left-radius: 50%;
-   border-bottom-left-radius:  50%;
-   border-bottom-right-radius:  50%;
-   border-top-right-radius: 50%;
-   border-top: 500px solid #006666; 
-   border-right: 500px solid transparent; 
-   border-left: 500px solid #006666; 
-   border-bottom: 500px solid #006666; 
-   position: absolute;
-   left: 0;
-   top: 0;
+    width: 0;
+    height: 0;
+    border-top-left-radius: 50%;
+    border-bottom-left-radius:  50%;
+    border-bottom-right-radius:  50%;
+    border-top-right-radius: 50%;
+    border-top: 500px solid #006666; 
+    border-right: 500px solid transparent; 
+    border-left: 500px solid #006666; 
+    border-bottom: 500px solid #006666; 
+    position: absolute;
+    left: 0;
+    top: 0;
 }
 
 .details{
@@ -194,7 +197,6 @@
     width: 50vw;
     margin-left: 0vw;
     margin-top: 0vw;
-    
 }
 .detail1{ 
     width: 33vw;
@@ -236,7 +238,7 @@
     color: #000;
 }
 .details p{
-    width: 70%;
+    width: 75%;
     margin-left: 100px;
     position: relative;
     color: #000;
@@ -599,11 +601,13 @@
         height: 12vw;
     }
     .infor{
+        z-index: 0;
         position: relative;
         display: flex;
         color: #006666;
     }
     .infor div{
+        display: none;
         margin-left: 5px;
     }
     .infor div h1{
@@ -613,34 +617,34 @@
         margin-top: 15px;
     }
     .one{
-        top: -40%;
-        right: 55%;
+        top: -42%;
+        right: 60%;
         transform: rotate(-120deg);
     }
     .two{
-        top: -72%;
-        right: -40%;
+        top: -79%;
+        right: -41%;
         transform: rotate(-60deg);
         
     }
     .three{
-        top: -20%;
-        right: -95%;
+        top: -27%;
+        right: -98%;
         transform: rotate(0deg);
     }
     .four{
-        top: 44%;
-        right: -53%;
+        top: 38%;
+        right: -58%;
         transform: rotate(60deg);
     }
     .five{
-        top: 29%;
-        right: 40%;
+        top: 24%;
+        right: 38%;
         transform: rotate(120deg);
     }
     .six{
-        top: -75%;
-        right: 95%;
+        top: -80%;
+        right: 98%;
         transform: rotate(180deg);
     }
     .Profile{
@@ -739,8 +743,8 @@
     }
     .details img{
         position: absolute;
-        top: 0.5vw;
-        left: 0.5vw;
+        top: 1vw;
+        left: 1vw;
         width: 60px;
         height: 60px;
     }
