@@ -587,26 +587,28 @@
         height: 50vw;
         position: absolute;
         top: 30%;
-        left: -5vw;
+        left: 0vw;
     }
     #home{
         width: 50vw;
         height: 50vw;
         position: relative;
         top: 50%;
-        left: 66%;
+        left: 50%;
         border-radius: 50%;
         transition: 1s;
+    }
+    .infor{
+        position: relative;
+        display: flex;
+        color: #006666;
     }
     .infor img{
         width: 12vw;
         height: 12vw;
     }
-    .infor{
-        z-index: 0;
-        position: relative;
-        display: flex;
-        color: #006666;
+    .infor a{
+        list-style: none;
     }
     .infor div{
         display: none;
@@ -619,45 +621,44 @@
         margin-top: 15px;
     }
     .one{
-        top: -42%;
-        right: 60%;
+        top: -43%;
+        right: 65%;
         transform: rotate(-120deg);
     }
     .two{
-        top: -79%;
-        right: -41%;
-        transform: rotate(-60deg);
-        
+        top: -82%;
+        right: -38%;
+        transform: rotate(-60deg); 
     }
     .three{
-        top: -27%;
-        right: -98%;
+        top: -25%;
+        right: -100%;
         transform: rotate(0deg);
     }
     .four{
-        top: 38%;
-        right: -58%;
+        top: 45%;
+        right: -64%;
         transform: rotate(60deg);
     }
     .five{
-        top: 24%;
+        top: 38%;
         right: 38%;
         transform: rotate(120deg);
     }
     .six{
-        top: -80%;
-        right: 98%;
+        top: -65%;
+        right: 100%;
         transform: rotate(180deg);
     }
     .Profile{
         width: 50%;
         position: absolute;
         top: 100%;
-        left: 90%;
+        left: 75%;
         z-index: 1;
     }
     .overlay{
-        left: 15%;
+        left: 0;
         border-top-left-radius: 50%;
         border-bottom-left-radius:  50%;
         border-bottom-right-radius:  50%;
@@ -683,7 +684,7 @@
         position: relative;
         text-align: center;
         top: 60vw;
-        left: 30vw;
+        left: 25vw;
     }
     .controls h2{
         margin-top: 10px;
