@@ -3,7 +3,7 @@
     padding: 0;
     font-family: sans-serif;
 }
-.main{
+#home{
     width: 100vw;
     height: 100vh;
     position: relative;
@@ -14,6 +14,9 @@
 .nav-bar{
     display: flex;
     padding: 30px 40px;
+}
+#logo{
+    cursor: pointer;
 }
 .nav-logo{
     z-index: 1;
@@ -59,6 +62,58 @@
     display: none;
 }
 
+#avatar{
+    width: 250px;
+    position: absolute;
+    top: 50%;
+    left: 38%;
+    border-radius: 20%;
+    border: 2px solid #66CCCC;
+    transform: translateY(-50%);
+    cursor: pointer;
+    z-index: 1;
+}
+#profile{
+    width: 500px;
+    height: 300px;
+    display: none;
+    position: absolute;
+    top: 35%;
+    left: 25%;
+    border-radius: 20px;
+    border: 2px solid #66CCCC;
+    background-color: #CCFFFF;
+    cursor: pointer;
+    z-index: 1;
+}
+.profile img{
+    width: 250px;
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    border-radius: 10px;
+    border: 2px solid #66CCCC;
+}
+.profile div img{
+    width: 50px;
+    top: 222px;
+    position: absolute;
+} 
+.profile div h2{
+    left: 25px;
+    top: 265px;
+    position: absolute;
+}
+.profile div h4{
+    position: absolute;
+    margin-left: 280px;
+}
+.profile div p{
+    position: relative;
+    margin-top: 10px;
+    margin-left: 350px;
+}
+
 .information{
     width: 1000px;
     height: 1000px;
@@ -68,7 +123,7 @@
     margin-left: -5%;
     transform: translatey(-50%);
 }
-#home{
+#main{
     width: 1000px;
     height: 1000px;
     position: absolute;
@@ -126,16 +181,6 @@
     right: 630px;
     transform: rotate(-120deg);
 }
-.avatar{
-    width: 250px;
-    position: absolute;
-    top: 50%;
-    left: 38%;
-    border-radius: 20%;
-    border: 2px solid #66CCCC;
-    transform: translateY(-50%);
-    z-index: 1;
-}
 
 .controls{
     position: absolute;
@@ -182,7 +227,6 @@
     top: 0;
     left: 0%;
     margin-left: 0;
-    text-align: justify;
     border-style: solid;
     border-color: #006666;
     background: linear-gradient(to right, #66CCCC, #006666);
@@ -192,7 +236,6 @@
     width: 50vw;
     margin-left: 0vw;
     margin-top: 0vw;
-    
 }
 .area2{
     position: relative;
@@ -244,6 +287,7 @@
 .details p{
     width: 75%;
     margin-left: 100px;
+    text-align: justify;
     position: relative;
     color: #000;
 }
@@ -261,10 +305,22 @@
     top: 10vw;
     left: 6vw;
 }
-.about p{
-    width: 80%;
+.about h4{
+    margin-left: 15px;
+    position: absolute;
+    color: #000;
+}
+.about1 p{
     margin-top: 100px;
-    margin-left: 5vw;
+    margin-left: 100px;
+}
+.about2 p{
+    margin-top: 0px;
+    margin-left: 100px;
+}
+.about3 p{
+    margin-top: 0px;
+    margin-left: 100px;
 }
 .experience{
     z-index: 1;
@@ -469,7 +525,7 @@
         display: block;
     }
     @media (min-width: 700px){
-    .main{
+    #home{
         height: 100vw;
     }
     .information{
@@ -490,7 +546,7 @@
         margin-left: 15px;
     }
     .details p{
-        margin-left: 70px;
+        margin-left: 60px;
     }
     .line{
         position: absolute;
@@ -501,31 +557,45 @@
         background: #006666;
     }
     .about{
+        z-index: 1;
         position: relative;
         top: 10vw;
         left: 6vw;
     }
+    .about h4{
+        margin-left: 15px;
+        position: absolute;
+        color: #000;
+    }
     .about p{
-        width: 25vw;
+        width: 22vw;
+        margin-left: 100px;
+    }
+    .about1 p{
         margin-top: 100px;
+    }
+    .about2 p{
+        margin-top: 0px;
+    }
+    .about3 p{
+        margin-top: 0px;
     }
     .experience{
         position: relative;
         top: 14vw;
         left: 6vw;
     }
-    .experience1 h3{
+    .experience p{
+        text-align: left;
+        width: 25vw;
+    }
+    .experience h3{
         margin-top: 0px;
     }
     .experience1 p{
-        width: 25vw;
         margin-top: 100px;
     }
-    .experience2 h3{
-        margin-top: 0px;
-    }
     .experience2 p{
-        width: 25vw;
         margin-top: 0px;
     }
     .awards {
@@ -533,15 +603,12 @@
         top: 0vw;
         left: 3vw;
     }
-    .award1 h3{
+    .award h3{
         margin-top: 0px;
     }
     .award1 p{
         width: 22vw;
         margin-top: 100px;
-    }
-    .award2 h3{
-        margin-top: 0px;
     }
     .award2 p{
         width: 22vw;
@@ -552,15 +619,12 @@
         top: -1vw;
         left: 3vw;
     }
-    .edu1 h3{
+    .education h3{
         margin-top: 0px;
     }
     .edu1 p{
         width: 22vw;
         margin-top: 100px;
-    }
-    .edu2 h3{
-        margin-top: 0px;
     }
     .edu2 p{
         width: 22vw;
@@ -582,9 +646,57 @@
 }
 
 @media (max-width: 700px){
-    .main{
+    #home{
         width: 101vw;
         height: 100vh;
+    }
+    #avatar{
+        width: 50%;
+        position: absolute;
+        top: 100%;
+        left: 75%;
+        z-index: 1;
+    }
+    #profile{
+        width: 88vw;
+        height: 50vw;
+        position: absolute;
+        top: 48%;
+        left: 20%;
+        border-radius: 10px;
+        border: 2px solid #66CCCC;
+        background-color: #CCFFFF;
+        cursor: pointer;
+        z-index: 1;
+    }
+    .profile img{
+        width: 40vw;
+        position: absolute;
+        top: 1%;
+        left: 1%;
+        border-radius: 5px;
+        border: 2px solid #66CCCC;
+    }
+    .profile div img{
+        width: 8vw;
+        top: 35vw;
+        position: absolute;
+    } 
+    .profile div h2{
+        text-size-adjust: 80%;
+        left: 3vw;
+        top: 43vw;
+        position: absolute;
+    }
+    .profile div h4{
+        position: absolute;
+        margin-left: 45vw;
+    }
+    .profile div p{
+        width: 30vw;
+        position: relative;
+        margin-top: 2vw;
+        margin-left: 60vw;
     }
     .information{
         width: 50vw;
@@ -593,7 +705,7 @@
         top: 30%;
         left: 0vw;
     }
-    #home{
+    #main{
         width: 50vw;
         height: 50vw;
         position: relative;
@@ -653,13 +765,6 @@
         top: -65%;
         right: 100%;
         transform: rotate(180deg);
-    }
-    .avatar{
-        width: 50%;
-        position: absolute;
-        top: 100%;
-        left: 75%;
-        z-index: 1;
     }
     .overlay{
         left: 0;
@@ -771,7 +876,7 @@
     .details p{
         position: relative;
         color: #000;
-        width: 75%;
+        width: 80%;
         margin-left: 60px;
     }
     .line{
@@ -783,30 +888,43 @@
         background: #006666;
     }
     .about{
+        z-index: 1;
         position: relative;
         top: 10vw;
         left: 6vw;
     }
+    .about h4{
+        margin-left: 10px;
+        position: absolute;
+        color: #000;
+    }
     .about p{
-        width: 80%;
+        width: 70%;
+        margin-left: 90px;
+    }
+    .about1 p{
         margin-top: 70px;
-        margin-left: 50px;
+    }
+    .about2 p{
+        margin-top: 0px;
+    }
+    .about3 p{
+        margin-top: 0px;
     }
     .experience{
         position: relative;
         top: 15vw;
         left: 6vw;
     }
-    .experience1 h3{
+    .experience h3{
         margin-top: 0px;
     }
     .experience1 p{
+        text-align: left ;
         margin-top: 70px;
     }
-    .experience2 h3{
-        margin-top: 0px;
-    }
     .experience2 p{
+        text-align: left ;
         margin-top: 0px;
     }
     .awards {
@@ -814,14 +932,11 @@
         top: 5vw;
         left: 2vw;
     }
-    .award1 h3{
+    .award h3{
         margin-top: 0px;
     }
     .award1 p{
         margin-top: 70px;
-    }
-    .award2 h3{
-        margin-top: 0px;
     }
     .award2 p{
         margin-top: 0px;
@@ -831,14 +946,11 @@
         top: 5vw;
         left: 2vw;
     }
-    .edu1 h3{
+    .education h3{
         margin-top: -5px;
     }
     .edu1 p{
         margin-top: 70px;
-    }
-    .edu2 h3{
-        margin-top: -5px;
     }
     .edu2 p{
         margin-top: 10px;
